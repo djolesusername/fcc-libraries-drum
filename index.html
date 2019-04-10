@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Drum machine Mint style</title>
+
+</head>
+
+<body>
+
+    <div id="drum-machine" class="container .container-fluid">
+        <h3>Hello world </h3>
+
+        <div class="row .container-fluid">
+            <div class="drum-pad  .col-3 " id="1" onclick="playaudio()"> Q<audio src="close.oga" class="clip" id="Q">
+                </audio> </div>
+
+            <div class="drum-pad .col-3 " id="2" onclick="playaudio()"> W<audio src="login.oga" class="clip" id="W">
+                </audio> </div>
+            <div class="drum-pad .col-3 " id="3" onclick="playaudio()"> E<audio src="logout.ogg" class="clip" id="E">
+                </audio> </div>
+        </div>
+        <div class="row">
+            <div class="drum-pad .col-4" id="4" onclick="playaudio()"> A<audio src="map.oga" class="clip" id="A">
+                </audio>
+            </div>
+            <div class="drum-pad .col-4" id="5" onclick="playaudio()"> S<audio src="minimize.oga" class="clip" id="S">
+                </audio> </div>
+            <div class="drum-pad .col-4" id="6" onclick="playaudio()"> D<audio src="notification.oga" class="clip"
+                    id="D">
+                </audio> </div>
+        </div>
+        <div class="row">
+            <div class="drum-pad .col-4" id="7" onclick="playaudio()"> Z<audio src="plug.oga" class="clip" id="Z">
+                </audio>
+            </div>
+            <div class="drum-pad .col-4" id="8" onclick="playaudio()"> X<audio src="switch.oga" class="clip" id="X">
+                </audio> </div>
+            <div class="drum-pad .col-4" id="9" onclick="playaudio()"> C<audio src="duplo.oga" class="clip" id="C">
+                </audio> </div>
+        </div>
+
+        <div id="display">Music is life</div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

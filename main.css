@@ -1,0 +1,35 @@
+.drum-pad {
+    cursor: pointer;
+    padding: 50px;
+    margin: 10px;
+    transition: 0.7s;
+    color:green;
+}
+#display {
+   
+    width: 80%;
+    color: skyblue;
+    text-align: right;
+}
+
+
+.playing {
+    border: 2px solid green;
+
+}
+#drum-machine {
+    background: white;
+    color: green;
+    display: grid;
+    width: 100%;
+    height: 100
+ 
+
+}
+body {
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+}
