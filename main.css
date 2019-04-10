@@ -8,8 +8,8 @@
 #display {
    
     width: 80%;
-    color: skyblue;
-    text-align: right;
+    color: red;
+    text-align: center;
 }
 
 
@@ -30,6 +30,6 @@ body {
     background-color: white;
 }
 
-h3 {
+h5 {
     text-align: center;
 }
