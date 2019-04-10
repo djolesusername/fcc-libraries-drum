@@ -1,4 +1,10 @@
 # fcc-libraries-drum
+/*  library used: Bootstrap
+Since Javascript 30 already covered similar challange I opted to push this one in vanila  mode.  Bootstrap was used to satisfy curiculum request
+This project was a good way to learn about transitions and events */
+
+
+
 Free Code Camp - Front End Libraries Certification - Drum Machine 
 
 
